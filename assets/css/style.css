@@ -1,3 +1,29 @@
-.navbar navbar-expand-lg navbar-light bg-light{
-background-color: #4aaaa5;
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Work+Sans:200,400,600&display=swap');
+body{
+    background: url("../images/regal.png");
+    background-size: auto, cover;
+}
+.container{
+    margin-top:40px;
+    background-color: white;
+}
+.navbar{
+background-color: #7a2640;
+}
+.navbar-brand{
+font-family: "Playfair Display";
+font-size: 32px;
+font-weight: 900;
+letter-spacing: 0.5em;
+}
+.navbar-nav{
+font-family: "Work Sans";
+font-weight: 200;
+float: right;
+}
+h1{
+font-family: "Work Sans"; 
+font-weight: 600;
+color: #210B2C;
+padding-top: 10px;
 }
